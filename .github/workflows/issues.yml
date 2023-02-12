@@ -1,7 +1,7 @@
-name: Project Deployment
+name: Log Project Issues
 on: issues
 jobs:
-  test_and_deploy:
+  log_issue:
     runs-on: ubuntu-latest
     steps:
       - name: Log issues
