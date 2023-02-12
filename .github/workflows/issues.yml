@@ -1,0 +1,8 @@
+name: Project Deployment
+on: issues
+jobs:
+  test_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log issues
+        run: echo "${{ github }}"
