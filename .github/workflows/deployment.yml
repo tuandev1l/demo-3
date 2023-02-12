@@ -1,0 +1,5 @@
+name: Project Deployment
+on: push
+jobs:
+  test_and_deploy:
+    runs-on: ubuntu-latest
